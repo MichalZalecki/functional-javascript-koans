@@ -1,0 +1,19 @@
+{
+  "name": "functional-javascript-koans",
+  "version": "1.0.0",
+  "description": "Shape up your skills in writing functional JavaScript",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Michal Zalecki <michal@michalzalecki.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.7.1",
+    "immutable": "^3.8.1",
+    "jest": "^20.0.4",
+    "lodash": "^4.17.4"
+  },
+  "jest": {
+    "testRegex": "koans\\/.*\\.js$"
+  }
+}
