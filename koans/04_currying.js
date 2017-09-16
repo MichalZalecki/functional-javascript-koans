@@ -2,6 +2,8 @@ describe("Currying", () => {
   describe("Implement curry function", () => {
     /********************* YOUR IMPLEMENTATION *********************/
 
+    // HINT: Function.prototype.length specifies function arity
+
     // curry :: (* → a) → (* → a)
 
     /***************************************************************/
@@ -18,14 +20,10 @@ describe("Currying", () => {
       expect(curriedSum(2)(3)).toEqual(5);
     });
 
-    // BONUS:
-    //
-    // HINT: Function.prototype.length specifies function arity
-    //
-    // test("curried function's arguments can be applied within a first call", () => {
-    //   const sum = (a, b) => a + b;
-    //   const curriedSum = curry(sum);
-    //   expect(curriedSum(2, 3)).toEqual(5);
-    // });
+    test("curried function's arguments can be applied within a first call", () => {
+      const sum = (a, b) => a + b;
+      const curriedSum = curry(sum);
+      expect(curriedSum(2, 3)).toEqual(5);
+    });
   });
 });

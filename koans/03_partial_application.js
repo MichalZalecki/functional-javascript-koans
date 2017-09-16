@@ -26,7 +26,7 @@ describe("Partial application", () => {
 
     /***************************************************************/
 
-    test("sum returns a function after applying a first argument", () => {
+    test("map returns a function after applying a first argument", () => {
       expect(typeof map(x => x * x)).toEqual("function");
     });
 

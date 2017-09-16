@@ -19,8 +19,3 @@ describe("Immutability", () => {
     });
   });
 });
-
-// BONUS: Immutable.js is already installed in node_modules. Play with it
-//        and answer how List.push and Array.prototype.push are different?
-//
-//        const { List } = require("immutable");

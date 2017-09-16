@@ -131,7 +131,3 @@ describe("Reduce", () => {
     });
   });
 });
-
-// BONUS: Try to understand what Applicative Functor is and how it works
-//        https://github.com/hemanth/functional-programming-jargon#applicative-functor
-//        Do you know the result of [(a) => a + 1, (a) => a * a].ap([1, 2]) without executing?

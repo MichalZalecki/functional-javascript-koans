@@ -47,8 +47,3 @@ describe("Pure functions", () => {
     });
   });
 });
-
-// BONUS: Try to understand what IO Mondad is and how it works.
-//        https://github.com/MichalZalecki/paradajs/blob/master/src/lib/monads.ts#L151-L176
-//        Do you see the benefit of IO Monad being also a Setoid.
-//        HINT: Think about testing.
